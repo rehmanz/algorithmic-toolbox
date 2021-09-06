@@ -15,4 +15,4 @@ jobs:
         python-version: 3.7.11
     - uses: Gr1N/setup-poetry@v7
     - run: poetry install
-    - run: poetry run pytest --verbose
+    - run: poetry run pylint algorithmic_toolbox/* --verbose

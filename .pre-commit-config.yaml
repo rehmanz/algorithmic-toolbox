@@ -8,9 +8,9 @@ repos:
    - id: check-json
    - id: check-merge-conflict
 - repo: https://github.com/pycqa/pylint
-  rev: v2.10.2
+  rev: v2.9.6
   hooks:
   - id: pylint
     name: pylint
-    args: [--py3k, --rcfile=pylintrc]
+    args: [--py3k, --rcfile=pylintrc, "algorithmic_toolbox/*"]
     language_version: "3"
